@@ -22,11 +22,36 @@ in remote and underserved areas..
 
 ## Features
 
-- Real-time messaging
-- BLE device connection
+# Bluetooth Connectivity
+Automatic device scanning and discovery
+Easy pairing with ESP32-based LoRa devices
+Real-time connection status monitoring
+Supports Nordic UART Service (NUS) protocol
+# Messaging
+Send and receive messages through LoRa network
+Real-time message delivery and display
+Message history with timestamps
+Clean, intuitive chat interface
+
+
 - LoRa communication
 - Cross-platform support
 - Offline communication
+# Technical Stack
+Framework: Flutter 3.x
+Language: Dart (SDK ^3.10.8)
+BLE Communication: flutter_blue_plus (v1.32.12)
+Permissions: permission_handler (v11.3.0)
+Platform Support: Android
+
+# Prerequisites
+Flutter SDK 3.x or higher
+Dart SDK 3.10.8 or higher
+ESP32 device with LoRa module and BLE capabilities
+ESP32 firmware configured with Nordic UART Service UUIDs:
+Service UUID: 6e400001-b5a3-f393-e0a9-e50e24dcca9e
+RX Characteristic: 6e400002-b5a3-f393-e0a9-e50e24dcca9e (Phone → ESP32)
+TX Characteristic: 6e400003-b5a3-f393-e0a9-e50e24dcca9e (ESP32 → Phone)
 
 ## Tech Stack
 
