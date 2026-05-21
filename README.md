@@ -56,7 +56,7 @@ ios/        -> iOS platform files
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/rabin-111/Lora-application-
 ```
 
 Move into the project directory:
