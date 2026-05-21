@@ -1,0 +1,37 @@
+name: LoRaChat
+description: "LoRaChat - ESP32 BLE Messaging with LoRa Communication"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_blue_plus: ^1.32.12
+  permission_handler: ^11.3.0
+  sqflite: ^2.3.3
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/app_icon.png
+    - assets/images/sender.png
+    - assets/images/receiver.png
+
+flutter_launcher_icons:
+    android: true
+    ios: true
+    image_path: "assets/icon/app_icon.png"
+    min_sdk_android: 21
+
